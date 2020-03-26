@@ -396,9 +396,9 @@ class _PickerState extends State<_PickerComponent> {
             height: _kPickerTitleHeight,
             child: FlatButton(
               child: Text(
-                '确定',
+                '确林定',
                 style: TextStyle(
-                  color: Colors.green,
+                  color: Theme.of(context).textSelectionHandleColor,
                   fontSize: 16.0,
                 ),
               ),
