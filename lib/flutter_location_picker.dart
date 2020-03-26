@@ -398,7 +398,7 @@ class _PickerState extends State<_PickerComponent> {
               child: Text(
                 '确定',
                 style: TextStyle(
-                  color: Color(0xFF3A7BFB),
+                  color: Colors.green,
                   fontSize: 16.0,
                 ),
               ),
