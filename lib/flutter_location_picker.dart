@@ -28,7 +28,7 @@ class LocationPicker {
           initialTown: initialTown,
           onChanged: onChanged,
           onConfirm: onConfirm,
-          theme: Theme.of(context, shadowThemeOnly: true),
+          theme: Theme.of(context),//, shadowThemeOnly: true),
           barrierLabel:
               MaterialLocalizations.of(context).modalBarrierDismissLabel,
         ));
